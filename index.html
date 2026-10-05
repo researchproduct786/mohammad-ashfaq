@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>For Mohammad Ashfaq — A Teacher Who Taught Me to Explore</title>
+<meta name="description" content="An immersive Teacher’s Day tribute built by Bilal.">
+<meta name="theme-color" content="#04060d">
+<meta property="og:title" content="For Mohammad Ashfaq — A Teacher Who Taught Me to Explore">
+<meta property="og:description" content="An immersive Teacher’s Day tribute built by Bilal.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2305071a'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23f0b45a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&family=Sora:wght@500;600&family=Noto+Nastaliq+Urdu:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-mood="astro">
+<canvas id="stars" aria-hidden="true"></canvas><div class="atmo" aria-hidden="true"></div>
+<div id="bar" aria-hidden="true"></div>
+
+<div id="intro" role="dialog" aria-label="Opening">
+  <div class="planet-in" aria-hidden="true"></div>
+  <p class="il" id="il"></p>
+  <button id="enter" class="btn solid" hidden>Enter the Universe ↓</button>
+  <button id="skip" class="skip">Skip intro</button>
+</div>
+
+<nav id="nav" class="glass" aria-label="Sections"><button id="menu" aria-label="Menu" aria-expanded="false">☰</button><ul id="navlist"></ul></nav>
+
+<main>
+<section id="top" data-nav="Intro" data-mood="astro" class="hero">
+  <div class="rv">
+    <p class="eyebrow">TEACHER’S DAY • 05 OCTOBER</p>
+    <h1>Mohammad Ashfaq</h1>
+    <p class="lead">The teacher who made curiosity feel bigger than the classroom.</p>
+    <p class="ru">Aap ne sirf subjects nahi parhaye — aap ne cheezen dekhne ka tareeqa badal diya.</p>
+    <p class="cta"><a class="btn solid" href="#journey">Explore the Journey</a> <a class="btn" href="#moments">Enter the Memories</a></p>
+  </div>
+  <div class="planet"><img data-img="hero" alt="" style="object-position:50% 35%"></div>
+</section>
+
+<section id="identity" data-nav="Identity" data-mood="astro">
+  <h2>The human behind the questions</h2>
+  <div class="split">
+    <div class="rv"><p>He teaches. He photographs school events, edits them, plans and organizes them. He writes poetry. And somewhere between all of that, he never stopped learning.</p>
+    <p class="ru">Sir ke saath class sirf board tak nahi thi — sawal, tasveer aur shayari bhi saath chalte thay.</p>
+    <ul class="chips" id="chips"></ul></div>
+    <div class="trio"><img data-img="yellow-wall" alt="" data-lb="id"><img data-img="tree" alt="" data-lb="id"><img data-img="profile" alt="" data-lb="id"></div>
+  </div>
+</section>
+
+<section id="journey" data-nav="Journey" data-mood="astro">
+  <h2>2022 → 2023 → Now</h2>
+  <ol class="tl">
+    <li class="glass rv"><b>2022 · Grade 7</b><p>The beginning of a deeper connection. Sir opened ideas that did not fit inside a textbook.</p></li>
+    <li class="glass rv"><b>2023 · Grade 8</b><p>Science, technology, engineering, psychology, biology, astronomy, photography, philosophy, poetry, Islam and experimentation — the doors kept opening.</p></li>
+    <li class="glass rv now"><b>Now · Bilal — A Student • Explorer • Builder</b><p>AI, coding, automation, e-commerce, digital marketing, product research, business, technology, AI agents.</p></li>
+  </ol>
+  <p class="quote">Some influences remain long after a classroom ends.</p>
+  <p class="ru c">Class khatam hoti hai, magar kuch asar saath chalte hain.</p>
+</section>
+
+<section id="curiosity" data-nav="Curiosity" data-mood="astro">
+  <h2>The Universe of Curiosity</h2><p class="ru">Jigyasa ka woh safar jo classroom se bahar nikal gaya.</p>
+  <div class="orbit"><div class="core"></div><div class="ring" id="ring"></div></div>
+  <div id="nodeinfo" class="glass info" aria-live="polite"><p>Tap a node.</p></div>
+</section>
+
+<section id="science" data-nav="Science" data-mood="eng">
+  <h2>Science was never just a chapter.</h2><p class="ru">Science ko sirf parhna nahi — samajhna aur banana tha.</p>
+  <div class="lab glass">
+    <svg viewBox="0 0 600 120" class="circ" aria-hidden="true"><path d="M0 60H120L150 20H260L290 100H400L430 60H600" pathLength="1"/><circle cx="150" cy="20" r="5"/><circle cx="290" cy="100" r="5"/><circle cx="430" cy="60" r="5"/></svg>
+    <ul class="chips" id="labchips"></ul><p id="labinfo" class="info2">Voltage, electricity, electrical and mechanical engineering, chemical concepts, experiments — tap any.</p>
+  </div>
+  <figure class="wide"><img data-img="exhibition" alt="" data-lb="cls"><figcaption>Models made by hand, set out for everyone to see.</figcaption></figure>
+</section>
+
+<section id="project" data-nav="Project" data-mood="eng">
+  <h2>The Water Cooling Experiment</h2><p class="lead">From a simple problem to an engineered solution.</p>
+  <p class="ru">June ki garmi mein ek simple problem thi: normal/warm water ko cool kaise kiya jaye?</p>
+  <p>During a hot June at school there was no proper cold-water system. Sir and the students experimented with a way to take normal water and cool it. It was a hands-on school experiment, not a factory machine, and it is shown here as exactly that.</p>
+  <div class="proj">
+    <div class="stage glass"><svg id="sch" viewBox="0 0 640 400" role="img" aria-label="Schematic of the water cooling experiment">
+      <g class="g" data-s="2" data-part="frame"><rect x="14" y="26" width="612" height="356" rx="14" class="frame"/><text x="28" y="46" class="t">wooden frame</text></g>
+      <g class="g" data-s="1" data-part="tank"><rect x="34" y="130" width="96" height="120" rx="12" class="tank"/><rect x="38" y="190" width="88" height="56" rx="8" class="water warm"/><text x="82" y="270" class="t c">INPUT</text><text x="82" y="284" class="t c">warm water</text></g>
+      <g class="g" data-s="3"><path d="M130 190H190M241 190H300" class="pipe"/></g>
+      <g class="g" data-s="3" data-part="pump"><circle cx="215" cy="190" r="26" class="pump"/><text x="215" y="194" class="t c">12V pump</text></g>
+      <g class="g" data-s="3" data-part="block"><rect x="300" y="150" width="150" height="80" rx="6" class="block"/><text x="375" y="186" class="t c">aluminum</text><text x="375" y="202" class="t c">block 120×40×12</text></g>
+      <g class="g" data-s="4" data-part="tec"><rect x="312" y="233" width="36" height="9" class="tec"/><rect x="362" y="233" width="36" height="9" class="tec"/><rect x="412" y="233" width="36" height="9" class="tec"/><text x="470" y="241" class="t cy">3 × TEC1-12706</text></g>
+      <g class="g" data-s="4" data-part="paste"><path d="M306 232H446M306 244H446" class="paste"/></g>
+      <g class="g" data-s="4" data-part="sink"><rect x="306" y="246" width="140" height="44" class="sink"/><path d="M318 250V288M334 250V288M350 250V288M366 250V288M382 250V288M398 250V288M414 250V288M430 250V288" class="fins"/><circle cx="345" cy="318" r="22" class="fan"/><circle cx="407" cy="318" r="22" class="fan"/><text x="470" y="276" class="t am">hot side → heatsink → fan</text><text x="470" y="170" class="t cy">cold side → water</text></g>
+      <g class="g" data-s="5" data-part="reg"><rect x="190" y="300" width="62" height="38" rx="6" class="box"/><text x="221" y="323" class="t c">regulator</text></g>
+      <g class="g" data-s="5" data-part="btn"><circle cx="282" cy="320" r="13" class="btn-c"/><text x="282" y="352" class="t c">button</text></g>
+      <g class="g" data-s="5" data-part="meter"><rect x="500" y="300" width="96" height="42" rx="6" class="box cy2"/><text x="548" y="325" class="t c">temp meter</text></g>
+      <g class="g" data-s="6" data-part="psu"><rect x="40" y="296" width="120" height="62" rx="6" class="box"/><text x="100" y="322" class="t c">220V AC → 12V DC</text><text x="100" y="340" class="t c">10A · 120W</text><path d="M160 320H190M252 320H269M160 306C240 280 300 290 306 270M160 346C380 372 480 340 500 330" class="wire"/></g>
+      <g class="g" data-s="7" data-part="tank"><path d="M450 190H520" class="pipe flow"/><rect x="520" y="130" width="96" height="120" rx="12" class="tank"/><rect x="524" y="190" width="88" height="56" rx="8" class="water cool"/><text x="568" y="270" class="t c">OUTPUT</text><text x="568" y="284" class="t c">cooled water</text></g>
+    </svg></div>
+    <div class="steps" id="steps"></div>
+  </div>
+  <div id="partlist" class="parts"></div>
+  <div id="partinfo" class="glass info" aria-live="polite"><p>Tap a part in the drawing or the list.</p></div>
+  <div class="strip"><img data-img="overhead" alt="" data-lb="proj"><img data-img="assembly" alt="" data-lb="proj"><img data-img="wiring" alt="" data-lb="proj"><img data-img="fitting" alt="" data-lb="proj"></div>
+  <figure class="wide"><div class="two"><img data-img="frost-macro" alt="" data-lb="proj"><img data-img="frost-ports" alt="" data-lb="proj"></div><figcaption>Frost forming on the cold block. A prototype built from curiosity, components and experimentation.</figcaption></figure>
+  <details class="refs glass"><summary>Parts used (references)</summary><ul>
+    <li><a href="https://www.daraz.pk/products/cpu-120x40x12-i143848443-s1305082666.html" target="_blank" rel="noopener">Aluminum cooling block</a></li>
+    <li><a href="https://www.daraz.pk/products/tec1-12706-peltier-thermoelectric-cooling-kit-with-heatsinks-cooling-fan-fan-guard-thermal-pads-mounting-hardware-for-diy-projects-by-electrica-i433486824-s2080959520.html" target="_blank" rel="noopener">TEC1-12706 Peltier kit</a></li>
+    <li><a href="https://www.daraz.pk/products/shafi-12v-dc-8watt-brushless-water-pump-i422664748-s2000362290.html" target="_blank" rel="noopener">12V 8W brushless water pump</a></li>
+    <li><a href="https://www.daraz.pk/products/ac-220-dc-12-10a-120-i1963890490-s14038963588.html" target="_blank" rel="noopener">AC 220V → DC 12V 10A 120W supply</a></li>
+    <li><a href="https://www.daraz.pk/products/dynasty-classic-jumbo-water-cooler-14-liters-i871286157-s3869870840.html" target="_blank" rel="noopener">Water cooler (reference)</a></li></ul></details>
+</section>
+
+<section id="human" data-nav="Biology" data-mood="bio">
+  <h2>From cells to circuits, you made me curious about how everything works.</h2>
+  <p class="ru">Insaan ke jism se le kar insaan ke zehan tak — har cheez ek naya sawal thi.</p>
+  <svg class="dna" viewBox="0 0 600 140" aria-hidden="true"><path d="M0 70C75 0 150 0 225 70S375 140 450 70 525 0 600 70" pathLength="1"/><path d="M0 70C75 140 150 140 225 70S375 0 450 70 525 140 600 70" pathLength="1"/></svg>
+  <ul class="chips"><li>Human biology</li><li>Digestion</li><li>How the body works</li><li>Psychology</li><li>Human behavior</li><li>The mind</li></ul>
+</section>
+
+<section id="tech" data-nav="Tech" data-mood="tech">
+  <h2>You introduced me to a future I could not yet see clearly.</h2>
+  <p class="ru">Technology mere liye sirf machine nahi rahi — ek possibility ban gayi.</p>
+  <canvas id="net" aria-hidden="true"></canvas>
+  <ul class="chips"><li>Computers</li><li>Technology</li><li>AI</li><li>Digital thinking</li><li>Experimentation</li></ul>
+</section>
+
+<section id="photography" data-nav="Photography" data-mood="photo">
+  <h2>Through your lens</h2><p class="lead">Photography taught me that seeing is not the same as looking.</p>
+  <p class="ru">Aap ne tasveer lena hi nahi, nazariya dekhna sikhaya.</p>
+  <figure class="wide"><img data-img="camera" alt="" data-lb="cam" style="object-position:50% 30%"></figure>
+  <div class="mason" id="mason"></div>
+  <p class="quote sm">A curious mind does not stay in one room.</p>
+</section>
+
+<section id="faith" data-nav="Faith" data-mood="faith">
+  <svg class="crescent" viewBox="0 0 100 100" aria-hidden="true"><path d="M62 10A40 40 0 1 0 90 66 32 32 0 1 1 62 10Z"/></svg>
+  <h2>Where knowledge became art</h2><p class="ru">Jahan ilm, husn aur roohaniyat ek tasveer mein mil gaye.</p>
+  <p class="ru big">Ilm sirf duniya ko samajhne ke liye nahi — insaan ko samajhne aur apne Rab ko yaad rakhne ke liye bhi hai.</p>
+  <p>The Qur’an, stories of the Prophets and the Companions, Islamic knowledge, reflection and moral thinking — Sir taught them slowly, as things to sit with.</p>
+  <div class="cal" id="cal"></div>
+</section>
+
+<section id="philosophy" data-nav="Philosophy" data-mood="poem">
+  <h2>The most valuable lessons were not always answers. Sometimes they were better questions.</h2>
+  <p class="ru">Aap ne mujhe har sawal ka jawab nahi diya — behtar sawal poochna sikhaya.</p>
+  <ul class="chips"><li>Questioning</li><li>Independent thinking</li><li>Looking beyond the obvious</li><li>Connecting subjects</li><li>Science, life and ideas</li></ul>
+  <div class="duo"><img data-img="candle-book" alt="" data-lb="ph"><img data-img="light-book" alt="" data-lb="ph"></div>
+</section>
+
+<section id="poetry" data-nav="Poetry" data-mood="poem">
+  <h2>Sir ke ash’aar</h2><p class="ru">Chand lafz, aur un ke peeche poori kaifiyat.</p>
+  <div id="poems"></div>
+  <p class="quote sm">You did not simply introduce me to poetry. You taught me how to read between the lines.</p>
+  <ul class="chips"><li>Jaun Elia</li><li>Parveen Shakir</li><li>Allama Iqbal</li><li>Ahmad Faraz</li></ul>
+  <p class="ru c">Inhein parhna bhi Sir ke zariye shuru hua.</p>
+</section>
+
+<section id="changed" data-nav="Change" data-mood="astro">
+  <h2>What you changed in me</h2><p class="ru">Aap ne meri soch mein kya badla?</p>
+  <p>Science. Engineering. Experimentation. Technology. AI. Computers. Photography. Philosophy. Poetry. Islam. Independent thinking. Asking questions. Building things.</p>
+  <h3 class="mt">One teacher. Many worlds opened.</h3>
+  <div id="worlds" class="radial"></div>
+  <h3 class="mt">The constellation of lessons</h3>
+  <div id="const" class="radial"></div>
+  <div id="constmsg" class="glass info" aria-live="polite"><p>Tap a star.</p></div>
+</section>
+
+<section id="bilal" data-nav="Bilal" data-mood="tech">
+  <h2>Bilal — A Student • Explorer • Builder</h2>
+  <p>Today I am deep into AI, coding, AI tools, automation, e-commerce, product research, digital marketing, Shopify and business.</p>
+  <div class="glass vision rv"><b>The ambition</b><p>I am working toward an AI + e-commerce startup idea: a JARVIS-inspired AI agent that, under my instructions and approval, could one day help build and manage a store, research demand (especially Gulf markets), find products, prepare listings and Meta/TikTok campaigns, read results, learn from them and improve the workflow. This is a direction and an ambition. It is not finished, and I am not pretending it is.</p></div>
+  <p class="quote">Maybe the tools changed. Maybe the classroom changed.<br>But the habit of questioning stayed.</p>
+  <p class="ru c">Tools badal gaye, classroom badal gayi — sawal poochne ki aadat wahi rahi.</p>
+  <div class="bridge">
+    <figure><img data-img="overhead" alt="" ><figcaption>Physical systems</figcaption></figure><span>→</span>
+    <figure><svg viewBox="0 0 120 80" class="circ2" aria-hidden="true"><path d="M5 40H40L50 15H80L90 65H115" pathLength="1"/></svg><figcaption>Digital systems</figcaption></figure><span>→</span>
+    <figure><canvas id="net2" aria-hidden="true"></canvas><figcaption>Intelligent systems</figcaption></figure>
+  </div>
+  <p class="quote sm">From asking how a cooling system works… to asking how an AI system could work.</p>
+</section>
+
+<section id="moments" data-nav="Moments" data-mood="photo">
+  <h2>The moments that stay</h2><p class="ru">Kuch tasveerain sirf tasveerain nahi hotin. Woh waqt ko preserve kar leti hain.</p>
+  <figure class="wide big"><img data-img="award" alt="" data-lb="mom" style="object-position:50% 70%"><figcaption>Sir hands me a gift after the electrical project competition, where I came 2nd. The product in my hand is the one I made.</figcaption></figure>
+  <figure class="wide"><img data-img="friends" alt="" data-lb="mom"><figcaption>With my friends. Sir turned his lens towards us, and this one stayed.</figcaption></figure>
+  <h2 class="mt">A classroom full of curiosity</h2><p class="ru">Yahan sirf class nahi hoti thi — ideas move karte thay.</p>
+  <div class="hs" id="cls"></div>
+</section>
+
+<section id="links" data-nav="More" data-mood="faith">
+  <div class="glass links"><b>Discover more</b><p>An optional continuation of the journey.</p>
+    <a class="btn" href="https://500px.com/p/mohammadashfaq" target="_blank" rel="noopener">500px</a>
+    <a class="btn" href="https://www.facebook.com/share/1CCmL7Z6Wd/" target="_blank" rel="noopener">Facebook</a>
+    <a class="btn" href="https://www.facebook.com/profile.php?id=61590112754865" target="_blank" rel="noopener">Travel page</a>
+    <a class="btn" href="https://www.tiktok.com/@mohammadashfaqq" target="_blank" rel="noopener">TikTok</a>
+    <a class="btn" href="https://www.youtube.com/@ruggedwildvibe?app=desktop" target="_blank" rel="noopener">YouTube</a>
+    <a class="btn" href="https://www.facebook.com/share/1Cvv8gZjtb/" target="_blank" rel="noopener">School page</a></div>
+</section>
+
+<section id="thanks" data-nav="Thank you" data-mood="final" class="final">
+  <img data-img="class-smiles" alt="" class="fimg" data-lb="fin" style="object-position:30% 30%">
+  <p class="quote">I may build many things in my life.<br>Websites. Systems. Businesses. AI. Technology.<br><br>But one of the first people who taught me how to think differently… was you.</p>
+  <p class="ru c">Zindagi mein main bohat si cheezen build karunga. Lekin meri soch ki bunyaad banane walon mein aap ka naam hamesha rahega.</p>
+  <h2 class="thx">THANK YOU, SIR.</h2>
+  <p class="lead c">HAPPY TEACHER’S DAY — MOHAMMAD ASHFAQ ✨</p>
+  <p class="c">Some lessons leave the classroom.<br>They become part of who you are.</p>
+  <p class="ru c">Aap ne darwaza khola tha. Main us universe mein abhi tak travel kar raha hoon.</p>
+  <p class="ru c">Teacher’s Day Mubarak, Sir. Aap ki di hui soch aur sawalon ki aadat aaj bhi mere saath hai.</p>
+  <p class="cta c"><button class="btn" id="replay">Replay the Journey ↺</button> <a class="btn" href="#moments">Explore the Memories Again</a> <button class="btn solid" id="share">Share this Tribute</button></p>
+  <p class="sig c">Built with gratitude by Bilal<br><b>Bilal — A Student • Explorer • Builder</b><br>For Mohammad Ashfaq — the teacher who taught me to look beyond the obvious. 🤍</p>
+</section>
+</main>
+
+<div id="lb" hidden role="dialog" aria-modal="true" aria-label="Photo viewer"><button id="lbx" aria-label="Close">✕</button><button id="lbp" aria-label="Previous">‹</button><figure><img id="lbi" alt=""><figcaption id="lbc"></figcaption></figure><button id="lbn" aria-label="Next">›</button></div>
+<script src="assets/manifest.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
